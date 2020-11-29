@@ -1,0 +1,224 @@
+/* Headline hsl(43, 64%, 63%) FONT Futura PT Weight 500 style normal size 79px letter spacing 0em line height 1em*/
+/* body color hsl(46, 0%, 100%) font calluna sans size 25px letter spacing 0.04 em line height 1,4em */
+/* bg hsl(229, 10%, 24%) */
+/* headr nav bar font brandon grotesque weight 500 14px lette spacing 0.16em */
+
+
+html {
+    background: hsl(229, 10%, 24%);
+}
+
+#main {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: hsl(43, 64%, 63%);
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 4em;
+    margin: 0;
+    margin-top: 3em;
+    letter-spacing: -0.05em;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(46, 0%, 100%);
+    margin: 0.2em;
+    margin-bottom: 1.5em;
+    font-size: 1.2em;
+}
+
+.p1 {
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.pbold {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+#header-list {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin-right: 1em;
+}
+
+#header-list li {
+    padding: 0.5em;
+}
+
+a {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 0.9em;
+    font-weight: 500;
+    text-decoration: none;
+    color: hsl(46, 0%, 100%);
+}
+
+#header a:hover {
+    color: grey;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin-right: 1em;
+}
+
+iframe {
+    position: relative;
+}
+
+.title {
+    color: hsl(43, 64%, 63%);
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 4em;
+    margin: 0;
+    margin-top: 1em;
+    letter-spacing: -0.05em;
+}
+
+.nav li {
+    margin: 1em;
+}
+
+.nav li a {
+    color: grey;
+}
+
+.nav li a:hover {
+    color: white;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 800px;
+}
+
+.blurb {
+    font-size: 0.8em;
+}
+
+.self-pic {
+    margin-right: 1em;
+}
+
+.subheading {
+    text-align: center;
+    color: white;
+    font-family: 'Lato', sans serif;;
+    font-weight: 600;
+    font-size: 1.6em;
+}
+
+.play-button {
+    position: relative;
+
+    width: 80px;
+    height: 80px;
+    display: block;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 0;
+    margin: 0 auto;
+    user-select: none;
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: background-color 0.5s ease;
+  }
+  .play-button:after {
+    position: relative;
+    top: calc(50% - 18px);
+    left: calc(50% - 10px);
+    display: block;
+    content: '';
+    box-sizing: border-box;
+    border-color: transparent transparent transparent #fff;
+    border-style: solid;
+    border-width: 18px 0 18px 28px;
+  }
+  .play-button:hover {
+    background-color: rgba(0, 33, 66, 0.9);
+  }
+
+  .center {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      max-width: width 1100px;
+  }
+
+  .work-showcase {
+      max-width: 800px;;
+
+  }
+
+  .category-label {
+    text-align: left;
+    color: white;
+    font-family: 'Lato', sans serif;;
+    font-weight: 700;
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
+  }
+
+  .category {
+      display: flex;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      margin-bottom: 1em;
+  }
+
+  .link-holder {
+    position: relative;
+    margin-right: 0.4em;
+    display: block;
+  }
+
+  .work-showcase img {
+    height: 185px;
+    width: 185px;
+  }
+
+  .sublabel {
+
+    width: 185px;
+    text-align: left;
+    color: white;
+    font-family: 'Lato', sans serif;;
+    font-weight: 500;
+    font-size: 0.8em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.work-showcase a {
+    display: block;
+    position: relative;
+    height: 185px;
+    width: 185px;
+    margin-bottom: 0.5em;
+    
+}
