@@ -1,16 +1,17 @@
-Add two tractors stuff
-
 download all videos and rehost on my youtube
-
-make the lightboxes into iframes
 
 make it wider
 
-fix the thumbnails apples and 48
-
 only 2 max of any given thing
 
+update showreel again
 
-har and soul https://youtu.be/FVxHGrC8Dik
-
-https://www.youtube.com/watch?v=FVxHGrC8Dik
+1. clone
+git clone git@github.com:barnabyisawesome/fancywebsite.git
+2: branch, git checkout -b new-branch-name
+3. make your changes
+4. add your un-staged changes `git add .`
+5. commit
+`git commit` and it will prompt for a commit message, or `git commit -m "my fancy commit message"
+6 push
+`git push origin new-branch-name
