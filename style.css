@@ -15,6 +15,7 @@ html {
     align-items: center;
     justify-content: center;
 }
+
 body {
     display: flex;
     flex-direction: column;
@@ -119,6 +120,7 @@ iframe {
 
 .blurb {
     font-size: 0.8em;
+    margin-top: 60px;
 }
 
 .self-pic {
@@ -128,7 +130,8 @@ iframe {
 .subheading {
     text-align: center;
     color: white;
-    font-family: 'Lato', sans serif;;
+    font-family: 'Lato', sans serif;
+    ;
     font-weight: 600;
     font-size: 1.6em;
 }
@@ -146,8 +149,9 @@ iframe {
     user-select: none;
     background-color: rgba(0, 0, 0, 0.6);
     transition: background-color 0.5s ease;
-  }
-  .play-button:after {
+}
+
+.play-button:after {
     position: relative;
     top: calc(50% - 18px);
     left: calc(50% - 10px);
@@ -157,61 +161,67 @@ iframe {
     border-color: transparent transparent transparent #fff;
     border-style: solid;
     border-width: 18px 0 18px 28px;
-  }
-  .play-button:hover {
+}
+
+.play-button:hover {
     background-color: rgba(0, 33, 66, 0.9);
-  }
+}
 
-  .center {
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-      max-width: width 1100px;
-  }
+.center {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: width 1100px;
+}
 
-  .work-showcase {
-      max-width: 800px;;
+.work-showcase {
+    max-width: 800px;
+    ;
 
-  }
+}
 
-  .category-label {
+.category-label {
     text-align: left;
     color: white;
-    font-family: 'Lato', sans serif;;
+    font-family: 'Lato', sans serif;
+    ;
     font-weight: 700;
     font-size: 1.2em;
     margin-bottom: 0.5em;
-  }
+}
 
-  .category {
-      display: flex;
-      align-items: flex-start;
-      flex-wrap: wrap;
-      margin-bottom: 1em;
-  }
+.category {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 1em;
+}
 
-  .link-holder {
+.link-holder {
     position: relative;
     margin-right: 0.4em;
     display: block;
-  }
+}
 
-  .work-showcase img {
+.work-showcase img {
     height: 185px;
     width: 185px;
-  }
+    object-fit: cover;
+}
 
-  .sublabel {
+.sublabel {
 
     width: 185px;
     text-align: left;
     color: white;
-    font-family: 'Lato', sans serif;;
+    font-family: 'Lato', sans serif;
+    ;
     font-weight: 500;
     font-size: 0.8em;
     white-space: nowrap;
     overflow: hidden;
-    text-overflow: ellipsis;
+    text-wrap: balance;
+    /* text-overflow: ellipsis; */
 }
 
 .work-showcase a {
@@ -220,11 +230,25 @@ iframe {
     height: 185px;
     width: 185px;
     margin-bottom: 0.5em;
-    
+
 }
 
-#barn-photo {
-    width: 350px;
-    margin-top: 60px;
+.barn-photo {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
     margin-right: 10px;
+}
+
+.barn-photo:nth-of-type(3) {
+    object-position: 50% 40%;
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+}
+
+#dairy-farmers-img {
+    object-position: 80% 50%;
 }
